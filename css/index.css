@@ -1,0 +1,86 @@
+body{
+
+    background-color: var(--Preto);
+    display: flex;
+}
+    body > div{
+        width: 100%;
+        height: 100vh;
+    }
+
+#Img-right{
+    width: 100%;
+    height: 100%;
+}
+
+/* cabeçalho */
+header{
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--Branco);
+}
+    header > div{
+        padding-right: 20px;
+        font-size: 24px;
+    }
+    #img-Header{
+        width: 50px;
+        height: 50px;
+    }
+ 
+/* Corpo */
+main{
+    display: flex;
+    justify-content: center;
+}
+    #box{
+        position: relative;
+        top: 90px;
+        width: min(800px,90%);
+    }
+        #Txt > h2{
+            font-size: 80px;
+            color: var(--Laranja);
+        }
+        #Txt > span{
+            position: relative;
+            bottom: 10px;
+            font-size: 28px;
+            color: var(--Branco);
+        }
+        #Txt > p{
+            position: relative;
+            top: 0px;
+            font-size: 20px;
+            width: 90%;
+            color: var(--Cinza);
+        }
+        #Btn{
+            position: relative;
+            top: 20px;
+        }
+            #Btn-Oficial{
+                background-color: var(--Laranja);
+                margin-top:10px;
+                padding: 15px 50px 15px 50px;
+                border-radius: 50px;
+                font-size: 20px;
+                color: var(--Cinza-02);
+                cursor: pointer;
+            }
+                #Btn-Oficial:hover{
+                    color: var(--Branco);
+                }
+
+            #Btn-Nao-Oficial{
+                position: relative;
+                left: 20px;
+                font-size: 16px;
+                color: var(--Cinza-02);
+                cursor: pointer;
+            }
+                #Btn-Nao-Oficial:hover{
+                    color: var(--Branco);
+                }
